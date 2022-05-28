@@ -1,0 +1,37 @@
+var lQuadrado, l1, l2, l3, triangulo, base, operacao, area, perimetro : real
+
+Inicio
+    escreval("Digite (Q) para calcular a área e o perímetro do quadrado ou (T) para calcular a área e o perímetro do triângulo")
+    leia(operacao)
+    
+    escolha operacao
+        caso "Q"
+            escreval("Digite o lado do quadrado")
+            leia(lQuadrado)
+            area <- lQuadrado * lQuadrado
+            perimetro <- lQuadrado * 4
+            
+            escreval("Área: " + area)
+            escreval("Perímetro: " + perimetro)
+        caso "T"
+            escreval("Digite a base do triângulo")
+            leia(base)
+            escreval("Digite a altura do triângulo")
+            leia(triangulo)
+            escreval("Digite o primeiro lado do triângulo")
+            leia(lado1)
+            escreval("Digite o segundo lado do triângulo")
+            leia(lado2)
+            escreval("Digite o terceiro lado do triângulo")
+            leia(lado3)
+            
+            area <- (base * altura) / 2
+            perimetro <- lado1 + lado2 + lado3
+            
+            escreval("Área: " + area)
+            escreval("Perímetro: " + perimetro)
+        outrocaso
+            escreval("Opção inválida, digite (Q)uadrado ou (T)riângulo")
+    fimescolha
+
+Fimalgoritmo

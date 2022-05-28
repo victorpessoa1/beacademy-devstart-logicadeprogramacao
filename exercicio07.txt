@@ -1,0 +1,28 @@
+var valorInicial, deposito, saque, saldoAtual : real
+var operacao : inteiro
+
+Inicio
+    escreval("Informe seu saldo incial:")
+    leia(saldoInicial)
+    escreval("Informe a opção que deseja realizar: ")
+    escreval("1 - Depósito")
+    escreval("2 - Saque")
+    leia(operacao)
+    
+    se(operacao==1) entao
+        escreval("informe o valor para depósito: ")
+        leia(deposito)
+        saldoAtual <- (saldoInicial + deposito)
+    senao
+        se(operacao==2) entao
+            escreval("informe o valor para saque:")
+            leia(saque)
+            saldoAtual <- (saldoInicial - saque)
+        fimse
+    fimse
+
+    escreval("Saldo incial R$ " + saldoIncial)
+    escreval("Depósito R$ " + depósito)
+    escreval("Saque R$ " + saque)
+    escreval("Saldo atual R$ " + saldoAtual)
+Fimalgoritmo

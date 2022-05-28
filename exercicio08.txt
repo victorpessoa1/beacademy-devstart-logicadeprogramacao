@@ -1,0 +1,30 @@
+var num1, num2, resultado : real
+var operacao : caractere
+
+Inicio
+    escreval("Informe o primeiro número")
+    leia(num1)
+    escreval("Informe a operacao")
+    leia(operacao)
+    escreval("Informe o segundo número")
+    leia(num2)
+    
+    escolha operacao
+        caso "+"
+            resultado <- num1 + num2
+        caso "-"
+            resultado <- num1 - num2
+        caso "/"
+            resultado <- num1 / num2
+        caso "*"
+            resultado <- num1 * num2
+        outrocaso
+            resultado <- -1
+    fimescolha
+
+    se(resultado=-1)entao
+        escreval("Operação inválida! Escolha + - / *")
+    senao
+        escreval("Resultado: ", resultado)
+    fimse
+Fimalgoritmo

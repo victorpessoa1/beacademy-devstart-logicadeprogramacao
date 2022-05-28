@@ -1,0 +1,12 @@
+var nome : caractere
+var peso, altura : real
+
+Inicio
+    escreval("informe seu nome:")
+    leia(nome)
+    escreval("informe seu peso:")
+    leia(peso)
+    escreval("informe sua altura:")
+    leia(altura)
+    escreval("Olá, " + nome + "! seu peso é " + peso + " e sua altura é " + altura)
+Fimalgoritmo

@@ -1,0 +1,15 @@
+var nome : caractere
+var peso, altura, imc : real
+
+Inicio
+    escreval("Digite seu nome:")
+    leia(nome)
+    escreval("Digite seu peso (em Kg):")
+    leia(peso)
+    escreval("Digite sua altura (em metros):")
+    leia(altura)
+    
+    imc <- (peso/(altura * altura))
+
+    escreval("Seu nome é " + nome + ", você tem " + idade + " anos, sua altura é de " + altura + " e seu imc é de " + imc)
+Fimalgoritmo

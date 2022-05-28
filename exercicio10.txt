@@ -1,0 +1,56 @@
+var saldoInicial, deposito, saque, transferencia, saldoAtual : real
+var operacao, banco : caractere
+var agencia, conta : inteiro
+
+Inicio
+    escreva("Digite o seu saldo inicial")
+    leia(saldoInicial)
+    escreva("Digite (S) saque, (D) depósito, (T) transferência")
+    leia(operacao)
+    
+    escolha operacao
+        caso "S"
+            escreva("Digite o valor de saque")
+            leia(saque)
+            saldoAtual <- saldoInicial - saque
+
+        caso "D"
+            escreva("Digite o valor do depósito")
+            leia(deposito)
+            saldoAtual <- saldoInicial + deposito
+
+        caso "T"
+            escreva("Digite o valor da transferência")
+            leia(transferencia)
+            escreva("Digite o banco para transferir")
+            leia(banco)
+            escreva("Informe a agência")
+            leia(agencia)
+            escreva("Informe a conta")
+            leia(conta)
+            saldoAtual <- saldoInicial - transferencia
+            
+        outrocaso
+            escreva("Opção inválida, digite (Q)uadrado ou (T)riângulo")
+    fimescolha
+        
+    se(operacao=="S")entao
+        escreva("Operação realizada foi saque, valor R$: " + saque)
+    senao
+        se(operacao=="D")entao
+            escreva("Operação realizada foi depósito, valor R$: " + deposito)
+        senao
+            se(operacao=="T")entao
+                escreva("Transferência realizada para o Banco " + banco)
+                escreva("Agência: " + agencia)
+                escreva("Conta: " + conta)
+                escreva("no valor de R$: " + transferencia)
+            fimse
+        fimse
+    fimse
+    
+        
+    escreva("Seu saldo inicial era R$ " + saldoInicial)
+    escreva("Seu saldo atual é R$ " + saldoAtual)
+
+Fimalgoritmo

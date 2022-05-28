@@ -1,0 +1,14 @@
+var nome : caractere
+var idade : inteiro
+
+Inicio
+    escreval("Digite seu nome:")
+    leia(nome)
+    escreval("Digite sua idade:")
+    leia(idade)
+    escreval("Idade maior que o mínimo: " + (idade>18))
+    escreval("Idade diferente que 25: " + (idade<>25))
+    escreval("Idade diferente que 25 e nome é igual a Marcos: " + ((idade<>25) e (nome="Marcos")))
+    escreval("Idade diferente que 25 ou nome é igual a Marcos: " + ((idade<>25) ou (nome="Marcos")))
+    escreval("Idade dividida por 2 é igual a zero: " + (idade%2==0))
+Fimalgoritmo

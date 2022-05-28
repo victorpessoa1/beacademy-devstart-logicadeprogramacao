@@ -1,0 +1,7 @@
+var endereco : caractere
+
+Inicio
+    escreval("Digite seu endereco:")
+    leia(endereco)
+    escreval("Seu endereco é " + endereco)
+Fimalgoritmo
