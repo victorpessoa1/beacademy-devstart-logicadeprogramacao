@@ -1,1 +1,30 @@
 # beacademy-devstart-logicadeprogramacao
+# Be Academy - Exercícios 01 - 25 Lógica de Programação
+
+## Exercícios
+
+- [Exercicio-01](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio01.txt)
+- [Exercicio-02](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio02.txt)
+- [Exercicio-03](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio03.txt)
+- [Exercicio-04](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio04.txt)
+- [Exercicio-05](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio05.txt)
+- [Exercicio-06](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio06.txt)
+- [Exercicio-07](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio07.txt)
+- [Exercicio-08](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio08.txt)
+- [Exercicio-09](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio09.txt)
+- [Exercicio-10](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio10.txt)
+- [Exercicio-11](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio11.txt)
+- [Exercicio-12](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio12.txt)
+- [Exercicio-13](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio13.txt)
+- [Exercicio-14](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio14.txt)
+- [Exercicio-15](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio15.txt)
+- [Exercicio-16](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio16.txt)
+- [Exercicio-17](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio17.txt)
+- [Exercicio-18](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio18.txt)
+- [Exercicio-19](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio19.txt)
+- [Exercicio-20](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio20.txt)
+- [Exercicio-21](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio21.txt)
+- [Exercicio-22](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio22.txt)
+- [Exercicio-23](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio23.txt)
+- [Exercicio-24](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio24.txt)
+- [Exercicio-25](https://github.com/victorpessoa1/beacademy-devstart-logicadeprogramacao/blob/main/exercicio25.txt)

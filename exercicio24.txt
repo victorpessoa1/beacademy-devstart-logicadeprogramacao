@@ -1,0 +1,23 @@
+var clientes : vetor[1..5] de caractere
+var cpf: vetor[1..5] de inteiro
+var rg: vetor[1..5] de inteiro
+var endereco : vetor[1..5] de caractere
+var telefone : vetor[1..5] de inteiro
+
+Inicio
+    para i <- 1 ate 5 faca
+        escreval("Informe o nome do " + i + "º cliente: ")
+        leia(clientes[i])
+        escreval("Informe do CPF do " + i + "º cliente: ")
+        leia(cpf[i])
+        escreval("Informe o RG do " + i + "º cliente: ")
+        leia(rg[i])
+        escreval("Informe o endereço do " + i + "º cliente: ")
+        leia(endereco[i])
+        escreval("Informe o telefone do " + i + "º cliente: ")
+        leia(telefone[i])
+    fimpara
+    para i <- 1 ate 5 faca
+        escreval("Informações do cliente " + clientes[i] + ": CPF: " + cpf[i] + "RG: " + rg[i] + "endereço: " + endereco[i] + "telefone: " + telefone[i])
+    fimpara
+Fimalgoritmo
