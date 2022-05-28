@@ -1,0 +1,17 @@
+var i, n, som : inteiro
+
+Inicio
+    n <- 1
+    som <- 0
+    i <- 1
+
+    escreva(i)
+    i++
+    repita
+        escreva(" + " + i)
+        som <- som + i
+        i++
+    ate (i <= 100)
+    fimenquanto
+    escreval("A soma dos inteiros de 1 a 100 é igual a ", som)
+Fimalgoritmo

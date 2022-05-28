@@ -1,0 +1,13 @@
+var n, j : inteiro
+
+Inicio
+    escreval("Digite o número para a tabuada: ")
+    leia(numero)
+    j <- 1
+    enquanto j <= 10 faca
+        escreval(numero + " x " + j + " = " + (numero * j))
+        j <- j++
+    fimenquanto
+
+    escreval("Fora do enquanto")
+Fimalgoritmo

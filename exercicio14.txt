@@ -1,0 +1,45 @@
+var saldoInicial, saldoAtual deposito, saque, transferencia : real
+var operacao, banco : caractere
+var totalOperacao, conta, agencia : inteiro
+
+Inicio
+    escreval("Digite o seu saldo inicial ")
+    leia(saldoInicial)
+    escreval("Informe quantas operações deseja realizar ")
+    leia(totalOperacao)
+    
+    para i de 1 ate totalOperacao passo i++ faca
+        escreval("Digite (S) para saque, (D) para depósito e (T) para transferência ")
+        leia(operacao)
+        
+        escolha operacao
+            caso "S"
+                escreval("Digite o valor de saque ")
+                leia(saque)
+                saldoAtual <- saldoInicial - saque
+    
+            caso "D"
+                escreval("Digite o valor do depósito ")
+                leia(deposito)
+                saldoAtual <- saldoInicial + deposito
+    
+            caso "T"
+                escreval("Digite o valor da transferência ")
+                leia(transferencia)
+                escreval("Digite o banco para transferir ")
+                leia(banco)
+                escreval("Informe a agência ")
+                leia(agencia)
+                escreval("Informe a conta ")
+                leia(conta)
+                saldoAtual <- saldoInicial - transferencia
+                
+            outrocaso
+                escreval("Opção inválida, digite (Q)uadrado ou (T)riângulo ")
+        fimescolha
+    fimpara
+        
+    escreval("Seu saldo inicial era R$ " + saldoInicial)
+    escreval("Seu saldo atual é R$ " + saldoAtual)
+
+Fimalgoritmo

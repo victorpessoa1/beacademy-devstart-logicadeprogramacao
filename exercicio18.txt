@@ -1,0 +1,22 @@
+var login, nome : caractere
+var password, senha, operacao : inteiro
+
+Inicio
+    
+    nome <- Marcos
+    senha <- 1234
+    
+    repita
+        escreval("Digite -1 para sair do programa")
+        escreval("Digite o login:")
+        leia(login)
+        escreval("Digite a senha:")
+        leia(password)
+        se(login == nome e password == senha) entao
+            escreval("Bem-vindo!")
+        senao
+            escreval("Usuário inválido, tente novamente")
+        fimse
+    ate (operacao != -1)
+
+Fimalgoritmo

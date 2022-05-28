@@ -1,0 +1,24 @@
+var iMenorDe18, iMaiorDe60, idade : inteiro
+
+Inicio    
+
+    iMaiorDe60 <- 0
+    iMenorDe18 <- 0
+
+    repita
+        escreval("informe a idade da pessoa: ")
+        leia(idade)
+        
+        se(idade < 18) entao
+            iMenorDe18 ++
+        senao
+            se(idade > 60) entao
+                iMaiorDe60 ++
+            fimse
+        fimse
+    ate (idade < 0)
+    fimenquanto
+
+    escreval("Total de pessoas menores de 18 anos: " + iMenorDe18)
+    escreval("Total de pessoas maiores de 60 anos: " + iMaiorDe60)
+Fimalgoritmo

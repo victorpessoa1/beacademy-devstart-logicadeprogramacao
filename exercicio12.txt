@@ -1,0 +1,9 @@
+var i : inteiro
+
+Inicio
+    para i de 0 ate 100 passo i++ faca
+        se(i % 2 == 0) entao
+            escreval(i)
+        fimse
+    fimpara
+Fimalgoritmo

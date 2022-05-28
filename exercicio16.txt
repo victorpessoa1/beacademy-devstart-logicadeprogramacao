@@ -1,0 +1,14 @@
+var login : caractere
+var password : inteiro
+
+Inicio
+    escreval("Login: ")
+    leia(login)
+    escreval("Senha: ")
+    leia(senha)
+
+    enquanto (login != Marcos e senha != paylivre) faca
+        escreval("Tente novamente")
+    fimenquanto
+    escreval("Boas vindas!")
+Fimalgoritmo

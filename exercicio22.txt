@@ -1,0 +1,14 @@
+var produtos : vetor[1..3] de caractere
+var precos: vetor[1..3] de real
+var i : inteiro
+Inicio
+    para i <- 1 ate 3 faca
+        escreval("Informe o " + i + "º produto:")
+        leia(produtos[i])
+        escreval("Informe o preço do " + i + "º produto:")
+        leia(precos[i])
+    fimpara
+    para i <- 1 ate 3 faca
+        escreval("O produto " + produtos[i] + " custa R$ " + precos[i])
+    fimpara
+Fimalgoritmo

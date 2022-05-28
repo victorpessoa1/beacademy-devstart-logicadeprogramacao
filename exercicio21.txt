@@ -1,0 +1,14 @@
+var saldo, saque : real
+
+Inicio
+    saldo <- 1000
+    saque <- 150
+    
+    escreval("enquanto a conta tiver saldo, saques serão realizados")
+    
+    repita
+        saldo = saldo - saque
+    ate (saldo <= 0)
+    fimenquanto
+
+Fimalgoritmo
